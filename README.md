@@ -143,17 +143,21 @@ Speech Transcription (ASR): Converts English speech to text using Whisper.
 Text Translation (MT): Translates English text to Arabic using fine-tuned MarianMT.
 Speech Synthesis (TTS): Converts translated Arabic text to speech using MMS-TTS-Ara.
 Contributions
+
 ## This project introduces:
 
 A multilingual pipeline preserving emotional context in speech translation.
 Fine-tuned MarianMT for domain-specific English-Arabic translations.
 Integration of SER, ASR, MT, and TTS into a seamless system.
 Practical applications in the banking domain to improve customer service experience.
-Challenges
-## Limited Data: Domain-specific datasets for fine-tuning were limited, affecting performance.
+
+
+##Challenges
+Limited Data: Domain-specific datasets for fine-tuning were limited, affecting performance.
 Hardware Constraints: Training and inference required high computational power.
-## Integration: Combining SER, ASR, MT, and TTS demanded significant preprocessing and optimization.
-Future Directions
+Integration: Combining SER, ASR, MT, and TTS demanded significant preprocessing and optimization.
+
+##Future Directions
 Dataset Expansion: Incorporate larger, diverse datasets for better performance.
 Advanced Fine-Tuning: Explore techniques like LoRA or adapter layers for efficient domain adaptation.
 Real-Time Processing: Optimize the system for real-time emotion-driven translation.
