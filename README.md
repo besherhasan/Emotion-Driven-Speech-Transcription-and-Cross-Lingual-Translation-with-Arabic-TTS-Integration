@@ -107,13 +107,12 @@ To set up the project, follow the steps below:
 
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
-```bash
 git clone https://github.com/besherhasan/Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic-TTS-Integration.git
 cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic-TTS-Integration
 
 
 
-Install dependencies:
+### Install dependencies:
 
 bash
 Copy code
@@ -125,7 +124,7 @@ Copy code
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 
-Training
+## Training
 Model Weights
 Download the pre-trained and fine-tuned model weights:
 
@@ -136,7 +135,7 @@ MMS-TTS-Ara
 Place the downloaded weights in the appropriate directories under /weights/.
 
 
-Methodology
+## Methodology
 The pipeline follows these steps:
 
 Emotion Detection (SER): Analyzes the customer's voice to detect emotional tone using a CNN.
@@ -144,16 +143,16 @@ Speech Transcription (ASR): Converts English speech to text using Whisper.
 Text Translation (MT): Translates English text to Arabic using fine-tuned MarianMT.
 Speech Synthesis (TTS): Converts translated Arabic text to speech using MMS-TTS-Ara.
 Contributions
-This project introduces:
+## This project introduces:
 
 A multilingual pipeline preserving emotional context in speech translation.
 Fine-tuned MarianMT for domain-specific English-Arabic translations.
 Integration of SER, ASR, MT, and TTS into a seamless system.
 Practical applications in the banking domain to improve customer service experience.
 Challenges
-Limited Data: Domain-specific datasets for fine-tuning were limited, affecting performance.
+## Limited Data: Domain-specific datasets for fine-tuning were limited, affecting performance.
 Hardware Constraints: Training and inference required high computational power.
-Integration: Combining SER, ASR, MT, and TTS demanded significant preprocessing and optimization.
+## Integration: Combining SER, ASR, MT, and TTS demanded significant preprocessing and optimization.
 Future Directions
 Dataset Expansion: Incorporate larger, diverse datasets for better performance.
 Advanced Fine-Tuning: Explore techniques like LoRA or adapter layers for efficient domain adaptation.
