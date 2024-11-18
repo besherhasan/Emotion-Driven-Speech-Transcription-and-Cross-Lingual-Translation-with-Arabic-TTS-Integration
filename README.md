@@ -63,14 +63,16 @@ Figure 5: Average sentence length comparison Translation
 #### 2. **`Machine Translation`**
    - Responsible for the machine translation tasks in the pipeline, specifically **English-to-Arabic translation**.
    - **Subfolders:**
-     - **`Marian_MT_Best_Model_compressed/`:**
+     - **`Best Model/`:**
        - Compressed pre-trained and fine-tuned MarianMT model files for translation tasks.
-     - **`training_data/`:**
+     - **`Dataset for Translation/`:**
        - Stores datasets used for fine-tuning the MarianMT model, including English-Arabic parallel sentences.
-     - **`fine_tuning/`:**
-       - Scripts and configurations for fine-tuning the MarianMT model using domain-specific datasets.
-     - **`evaluation/`:**
-       - Evaluation metrics and scripts for assessing the quality of translations using BLEU and BERT scores.
+     - **`Machine Translation/MachineTranslation_Using_Transformers_Low_Score.ipynb`:**
+       - Contain the script of the Model that is based on transformers that is creatsed from scratch.
+     - **`Machine Translation/Machine Translation/Machine_Translation_MarianMT_BestModel.ipynb`:**
+       - Contain the script of MarianMT the fine tuned model .
+     - **`Human Evaluation/`:**
+       - Contain the Human evaluation that is done on the best model.
 
 #### 3. **`Speech Emotion Recognition`**
    - Manages emotion recognition tasks using **CNN-based models**.
@@ -87,10 +89,8 @@ Figure 5: Average sentence length comparison Translation
 #### 4. **`TTS` (Text-to-Speech)**
    - Responsible for converting translated Arabic text into natural speech using **MMS-TTS-Ara**.
    - **Subfolders:**
-     - **`mms_tts_ara/`:**
-       - Pre-trained MMS-TTS-Ara model files and related scripts.
-     - **`synthesis/`:**
-       - Text-to-speech synthesis scripts to generate audio from Arabic text.
+     - **`TTS/TTS.ipynb`:**
+       - Pre-trained MMS-TTS-Ara model script.
 
 #### 5. **`utils/`**
    - Utility scripts and helper functions shared across the project.
@@ -99,15 +99,11 @@ Figure 5: Average sentence length comparison Translation
      - Model evaluation utilities.
      - Logging and visualization scripts.
 
-#### 6. **`requirements.txt`**
-   - Lists all Python dependencies required to run the project.
-   - Includes libraries for machine learning (e.g., PyTorch), data processing, and evaluation.
-
-#### 7. **`README.md`**
+#### 6. **`README.md`**
    - The main documentation file for the repository.
    - Provides an overview, installation instructions, and usage examples.
 
-#### 8. **`LICENSE`**
+#### 7. **`LICENSE`**
    - Specifies the licensing terms for using the code in the repository.
    - Typically outlines permissions and restrictions for users.
 
@@ -133,24 +129,26 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 
 ### Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Install GPU-optimized PyTorch (if applicable):
+## Install the required Python libraries using pip:
+# pip install -r requirements.txt
 
-bash
-Copy code
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+## Install GPU-optimized PyTorch (if applicable):
+
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 
 ## Training
-Model Weights
-Download the pre-trained and fine-tuned model weights:
+# Model Weights
+## Download the pre-trained and fine-tuned model weights:
 
-Marian MT Best Model
-SER CNN Model
-Whisper Model
-MMS-TTS-Ara
+# Marian MT Best Model
+
+#SER CNN Model
+
+#Whisper Model
+
+#MMS-TTS-Ara
+
 Place the downloaded weights in the appropriate directories under /weights/.
 
 
