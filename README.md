@@ -169,12 +169,21 @@ Integration of SER, ASR, MT, and TTS into a seamless system.
 Practical applications in the banking domain to improve customer service experience.
 
 
-##Challenges
+## Contribution
+Our project introduces an innovative integration of emotion-driven speech transcription and cross-lingual translation, tailored specifically for the banking customer service domain. Unlike traditional systems, we prioritize the retention of emotional context throughout the communication pipeline, ensuring empathetic and effective service delivery. By leveraging state-of-the-art models such as a CNN for Speech Emotion Recognition (SER), Whisper for Automatic Speech Recognition (ASR), fine-tuned MarianMT for machine translation, and MMS-TTS-Ara for Arabic Text-to-Speech (TTS), we deliver a seamless end-to-end multilingual solution. Key contributions include:
+
+Preserving emotional nuances during translation to enhance client engagement.
+Achieving high translation accuracy (BLEU score of 56 and BERTScore F1 of 88.7%) and robust emotion detection (F1-score of 94%).
+Demonstrating practical applications in the banking sector, addressing language and emotional barriers to improve customer satisfaction and responsiveness.
+This work bridges linguistic and emotional gaps in automated systems, presenting a transformative solution for customer service.
+
+
+## Challenges
 Limited Data: Domain-specific datasets for fine-tuning were limited, affecting performance.
 Hardware Constraints: Training and inference required high computational power.
 Integration: Combining SER, ASR, MT, and TTS demanded significant preprocessing and optimization.
 
-##Future Directions
+## Future Directions
 Dataset Expansion: Incorporate larger, diverse datasets for better performance.
 Advanced Fine-Tuning: Explore techniques like LoRA or adapter layers for efficient domain adaptation.
 Real-Time Processing: Optimize the system for real-time emotion-driven translation.
