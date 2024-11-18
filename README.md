@@ -32,7 +32,7 @@ Figure 1: System Architecture
 
 ---
 ## Exploratory Data Analysis
-![Log_Frequency](Log_Frequency.png.jpg)
+![Log_Frequency](Log_Frequency.jpg)
 Figure 2: Log-Frequency Power Spectrum of Different Emotions
 
 ![top_words_in_english-arabic](top_words_in_english-arabic.png)
