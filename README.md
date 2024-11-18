@@ -27,9 +27,26 @@ The system employs the following models:
 - **Text-to-Speech (TTS):**
   - **MMS-TTS-Ara**, a model for generating natural Arabic speech while retaining emotional tones.
 ![System Architecture](Project_System_Architecture.jpg)
+Figure 1: System Architecture
 
 
 ---
+## Exploratory Data Analysis
+![Log_Frequency](Log_Frequency.png.jpg)
+Figure 2: Log-Frequency Power Spectrum of Different Emotions
+
+![top_words_in_english-arabic](top_words_in_english-arabic.png)
+Figure 3: Top words in English-Arabic Datset
+
+![top_words_in_banking](top_words_in_banking.png)
+Figure 4: top words in banking Dataset
+
+
+![/avg_sentence_length_comparison_Translation](/avg_sentence_length_comparison_Translation.png)
+Figure 5: Average sentence length comparison Translation
+
+
+
 
 ## Repository Structure
 
