@@ -127,10 +127,10 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 
 
 
-### Install dependencies:
+# Install dependencies:
 
-## Install the required Python libraries using pip:
-# pip install -r requirements.txt
+### Install the required Python libraries using pip:
+#### pip install -r requirements.txt
 
 ## Install GPU-optimized PyTorch (if applicable):
 
