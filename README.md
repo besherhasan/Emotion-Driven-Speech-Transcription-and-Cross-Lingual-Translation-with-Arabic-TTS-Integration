@@ -127,27 +127,27 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 
 
 
-# Install dependencies:
+### Install dependencies:
 
-### Install the required Python libraries using pip:
-#### pip install -r requirements.txt
+#### Install the required Python libraries using pip:
+##### pip install -r requirements.txt
 
-## Install GPU-optimized PyTorch (if applicable):
+#### Install GPU-optimized PyTorch (if applicable):
 
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+##### pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 
 ## Training
-# Model Weights
-## Download the pre-trained and fine-tuned model weights:
+### Model Weights
+#### Download the pre-trained and fine-tuned model weights:
 
-# Marian MT Best Model
+##### Marian MT Best Model
 
-#SER CNN Model
+##### SER CNN Model
 
-#Whisper Model
+##### Whisper Model
 
-#MMS-TTS-Ara
+##### MMS-TTS-Ara
 
 Place the downloaded weights in the appropriate directories under /weights/.
 
