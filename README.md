@@ -26,7 +26,7 @@ The system employs the following models:
   - **MarianMT**, a fine-tuned, pre-trained transformer-based model for English-to-Arabic translation.
 - **Text-to-Speech (TTS):**
   - **MMS-TTS-Ara**, a model for generating natural Arabic speech while retaining emotional tones.
-![System Architecture](SystemArchitecture.jpg)
+![System Architecture](Project_System_Architecture.jpg)
 
 
 ---
