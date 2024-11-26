@@ -77,14 +77,12 @@ Figure 5: Average sentence length comparison Translation
 #### 3. **`Speech Emotion Recognition`**
    - Manages emotion recognition tasks using **CNN-based models**.
    - **Subfolders:**
-     - **`data/`:**
+     - **`RAVDESS Dataset/`:**
        - Raw audio files and their preprocessed versions (e.g., augmented data).
        - Contains labeled datasets like RAVDESS for emotion classification.
-     - **`training/`:**
+     - **`Full Code/`:**
        - Training scripts and configurations for the CNN model used in Speech Emotion Recognition (SER).
        - Includes hyperparameter tuning and augmentation techniques.
-     - **`evaluation/`:**
-       - Scripts for evaluating the SER model’s performance using precision, recall, F1 score, etc.
 
 #### 4. **`TTS` (Text-to-Speech)**
    - Responsible for converting translated Arabic text into natural speech using **MMS-TTS-Ara**.
@@ -92,20 +90,8 @@ Figure 5: Average sentence length comparison Translation
      - **`TTS/TTS.ipynb`:**
        - Pre-trained MMS-TTS-Ara model script.
 
-#### 5. **`utils/`**
-   - Utility scripts and helper functions shared across the project.
-   - May include:
-     - Data preprocessing functions.
-     - Model evaluation utilities.
-     - Logging and visualization scripts.
 
-#### 6. **`README.md`**
-   - The main documentation file for the repository.
-   - Provides an overview, installation instructions, and usage examples.
 
-#### 7. **`LICENSE`**
-   - Specifies the licensing terms for using the code in the repository.
-   - Typically outlines permissions and restrictions for users.
 
 ### Additional Notes
 - **Compressed Models:** Compressed model files under `Marian_MT_Best_Model_compressed/` are designed for users to download and uncompress before using them in translation tasks.
@@ -141,13 +127,12 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 ### Model Weights
 #### Download the pre-trained and fine-tuned model weights:
 
-##### Marian MT Best Model
+##### Marian MT Best Model in :    - **`Best Model/`:**
+
 
 ##### SER CNN Model
 
-##### Whisper Model
 
-##### MMS-TTS-Ara
 
 Place the downloaded weights in the appropriate directories under /weights/.
 
