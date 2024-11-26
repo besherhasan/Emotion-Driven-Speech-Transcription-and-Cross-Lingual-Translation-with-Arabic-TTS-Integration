@@ -93,11 +93,6 @@ Figure 5: Average sentence length comparison Translation
 
 
 
-### Additional Notes
-- **Compressed Models:** Compressed model files under `Marian_MT_Best_Model_compressed/` are designed for users to download and uncompress before using them in translation tasks.
-- **Training Data and Fine-Tuning:** Each component (SER, MT, ASR, TTS) has its own scripts for fine-tuning and training, allowing modular customization for different domains or languages.
-
-
 
 
 
@@ -123,7 +118,7 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 ##### pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 
-## Training
+
 ### Model Weights
 #### Download the pre-trained and fine-tuned model weights:
 
@@ -133,8 +128,6 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 ##### SER CNN Model CNN  in :    - **`Model (Best Model)/`:** 
 
 
-
-Place the downloaded weights in the appropriate directories under /weights/.
 
 
 ## Methodology
