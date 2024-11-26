@@ -130,7 +130,7 @@ cd Emotion-Driven-Speech-Transcription-and-Cross-Lingual-Translation-with-Arabic
 ##### Marian MT Best Model in :    - **`Best Model/`:**
 
 
-##### SER CNN Model
+##### SER CNN Model CNN  in :    - **`Model (Best Model)/`:** 
 
 
 
